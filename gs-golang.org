@@ -8,8 +8,9 @@
 #+TEXINFO_DIR_TITLE: Getting Started With Go
 #+TEXINFO_DIR_DESC: Introduction to the Go language
 #+TEXINFO_PRINTED_TITLE:Getting Started With Go
-#+MACRO: version 0.4
+#+MACRO: version 0.5
 #+OPTIONS: H:4
+#+STARTUP: logdone
 #+TITLE: Getting Started With Go
 #+AUTHOR: WLHarvey4
 #+DATE: 2018-12-06
@@ -938,6 +939,29 @@ just know that.
 
 #+END_QUOTE
 
+** Peer-Graded Assignment --- ``Hello World''
+
+*** Instructions
+The goal of  this initial assignment is  to ensure that you have  set up golang
+properly, and that you are ready to proceed through the rest of this course.
+
+*** Review Criteria
+This assignment  is worth a total  of 10 points.  5 points will be  awarded for
+successful compilation.  Another 5  points will be  awarded if  your screenshot
+shows execution and it successfully prints "Hello, world!"
+
+*** TODO Submission [3/4]
+    :PROPERTIES:
+    :ORDERED:  t
+    :END:
+ - [X] Download and install the Go tools on your machine. [100%]
+   - [X] Download
+   - [X] Install
+ - [X] Write a Go program to print ``Hello, world!'' on the screen.
+ - [X] Compile and run the program.
+ - [ ] Submit a screenshot of your cmd window showing you compiling and
+   executing your code.  The string ``Hello, world!'' should appear on the
+   screen when you execute the code.
 * Index
 :PROPERTIES:
 :INDEX: cp
