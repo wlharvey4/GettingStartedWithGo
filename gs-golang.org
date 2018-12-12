@@ -1,3 +1,9 @@
+# -*- mode: org; fill-column: 79; -*-
+
+#+TITLE: Getting Started With Go
+#+AUTHOR: WLHarvey4
+#+DATE: <2018-12-12 Wed 06:34>
+
 #+TEXINFO_FILENAME: gs-golang.info
 #+TEXINFO_CLASS: info
 #+TEXINFO_HEADER:
@@ -8,12 +14,9 @@
 #+TEXINFO_DIR_TITLE: Getting Started With Go
 #+TEXINFO_DIR_DESC: Introduction to the Go language
 #+TEXINFO_PRINTED_TITLE:Getting Started With Go
-#+MACRO: version 0.6
+#+MACRO: version 0.7
 #+OPTIONS: H:4
 #+STARTUP: logdone
-#+TITLE: Getting Started With Go
-#+AUTHOR: WLHarvey4
-#+DATE: <2018-12-09 Sun 17:50>
 
 * Course Info
 
@@ -77,7 +80,7 @@ don’t finish all graded assignments before the end of the course, you can rese
 your deadlines. Your progress will be saved and you’ll be able to pick up where
 you left off.
 
-**** What are due dates? Is there a penalty for submitting my work after a due date
+**** What are due dates-Is there a penalty for submitting work after a due date
 Within a course, there are suggested due dates to help you manage your schedule
 and keep coursework from piling up.  Quizzes and programming assignments can be
 submitted  late without  consequence. However,  it is  possible that  you won't
@@ -250,13 +253,13 @@ called for four courses but development  of the fourth course has been deferred
 to a later  time. For now, please disregard the  occasional references that the
 instructor makes to this fourth course.)
 
-The first course, Getting Started with Go, introduces the basic elements of the
-language including  unique features such  as slices  that are not  available in
-other  programming environments.  The  second course,  Functions, Methods,  and
-Interfaces in Go, expands your knowledge  of Go with a focus on object-oriented
+The first course,  /Getting Started with Go/, introduces the  basic elements of
+the language including unique features such as slices that are not available in
+other programming  environments.  The  second course, /Functions,  Methods, and
+Interfaces in Go/, expands your knowledge of Go with a focus on object-oriented
 features such as classes and encapsulation,  and allows you to practice writing
-code to  solve practical problems. The  third and final course,  Concurrency in
-Go, shows you how to write Go  code that executes more rapidly through parallel
+code to solve practical problems.  The  third and final course, /Concurrency in
+Go/, shows you how to write Go code that executes more rapidly through parallel
 execution in multi-processor environments.
 
 The courses feature video lectures by  Professor Ian Harris from the University
