@@ -14,9 +14,9 @@
 #+DATE: \today
 #+OPTIONS: toc:nil date:nil
 
-Welcome to the course, @@latex:\textsl{Course  One}@@. The point of this course
-is to give you some first-tier working  knowledge of the Go language and how to
-use it.
+Welcome to  the course @@latex:\textsl{@@Course One@@latex:}@@.  The point of
+this course is to give you some first-tier working knowledge of the Go language
+and how to use it.
 
 I'm  assuming  that you  already  have  some  experience programming  in  other
 languages, so I'm not talking from  scratch here. I'm assuming you already have
