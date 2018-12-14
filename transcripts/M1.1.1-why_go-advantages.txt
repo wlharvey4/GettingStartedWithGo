@@ -1,7 +1,7 @@
 # -*- mode: org; fill-column: 79 -*-
 
 #+TITLE:Why Learn Go?
-#+AUTHOR:WLHarvey4
+#+AUTHOR:Ian Harris
 #+DATE:<2018-12-14 Fri 05:48>
 #+VERSION:0.1.0
 
