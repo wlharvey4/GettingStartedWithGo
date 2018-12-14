@@ -289,6 +289,7 @@ specialization: Functions, Methods, and Interfaces in Go and Concurrency in Go.
 :TRANSCRIPT:
 [[file:transcripts/M0-introduction.txt][Introduction]]
 :END:
+#+INCLUDE: "./transcripts/M0-introduction.txt"
 
 *** Getting Started With Go Documentation
 :CI:
