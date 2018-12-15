@@ -1,4 +1,10 @@
 # -*- mode: org; fill-column: 79; -*-
+
+#+TITLE: Welcome to the Second Module \\
+#+SUBTITLE: \textsl{On Basic Data Types}
+#+AUTHOR: Ian Harris
+
+# -*- mode: org; fill-column: 79; -*-
 #+LATEX_CLASS: article
 #+LATEX_CLASS_OPTIONS:
 #+LATEX_HEADER:
@@ -7,11 +13,7 @@
 #+KEYWORDS:
 #+SUBTITLE:
 #+LATEX_COMPILER: pdflatex
-#+OPTIONS: toc:nil
-#+DATE: \today
-#+TITLE: Welcome to the Second Module \\
-#+SUBTITLE: \textsl{On Basic Data Types}
-#+AUTHOR: Ian Harris
+#+OPTIONS: H:4 toc:nil
 
 Welcome to the  second module.
 
