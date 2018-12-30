@@ -2,8 +2,12 @@
 
 #+TITLE: Getting Started With Go
 #+AUTHOR: WLHarvey4
-#+DATE: <2018-12-30 Sun 08:41>
-#+MACRO: version 0.7.3
+#+DATE: 2018-12-30 Sun 15:01
+#+MACRO: version 0.7.4
+
+{{{subtitle}}} Version: {{{version}}} ({{{date}}})
+
+[[https://www.coursera.org/learn/golang-getting-started/home/welcome]]
 
 * Course Info
 
@@ -137,7 +141,7 @@
     you for the remaining two courses in this specialization: Functions,
     Methods, and Interfaces in Go and Concurrency in Go.
 
-**** Contents
+**** C
      - One video :: Welcome to the Course
      - Reading :: Go Documentation
 
@@ -285,7 +289,7 @@
 :TRANSCRIPT:
 [[file:transcripts/M0-introduction.txt][Introduction]]
 :END:
-#+INCLUDE: "./transcripts/M0-introduction.txt"
+#+INCLUDE: "./transcripts/M0-introduction.txt::*Transcript" :only-contents t
 
 *** Getting Started With Go Documentation
 :CI:
@@ -579,22 +583,26 @@
 :INDEX: cp
 :END:
 * Export Setup                                                     :noexport:
-#+TEXINFO_FILENAME: gs-golang.info
+
 #+TEXINFO_CLASS: info
+#+TEXINFO_FILENAME: gs-golang.info
+#+TEXINFO_PRINTED_TITLE:Getting Started With Go
+#+SUBTITLE:{{{subtitle}}}
+#+SUBTITLE:Version {{{version}}} {{{time(%F %R)}}}
 
 #+TEXINFO_HEADER:
 #+TEXINFO_POST_HEADER:@allowcodebreaks false
 
-#+TEXINFO_PRINTED_TITLE:Getting Started With Go
-#+SUBTITLE:Version {{{version}}} {{{time(%F %R)}}}
 
 #+TEXINFO_DIR_CATEGORY: Languages
 #+TEXINFO_DIR_TITLE: Golang
 #+TEXINFO_DIR_DESC: Introduction to the Go language
 
-#+OPTIONS: H:4 ':t
+#+OPTIONS: H:4 ':t toc:t
 #+STARTUP: logdone
 * Macros                                                           :noexport:
+  #+macro: subtitle From UC Irvine
+  #+macro: sourceurl https://www.coursera.org/learn/golang-getting-started/home/
   #+macro: heading @@texinfo:@heading @@$1@@texinfo:@@
   #+macro: subheading @@texinfo:@subheading @@$1@@texinfo:@@
   #+macro: dfn @@texinfo:@dfn{@@$1@@texinfo:}@@
