@@ -2,8 +2,8 @@
 
 #+TITLE: Getting Started With Go
 #+AUTHOR: WLHarvey4
-#+DATE: <2018-12-30 Sun 07:57>
-#+MACRO: version 0.7.2
+#+DATE: <2018-12-30 Sun 08:41>
+#+MACRO: version 0.7.3
 
 * Course Info
 
@@ -343,60 +343,72 @@
 ** Workspaces and Packages
 
 :CI:
-#+CINDEX: workspace
-#+CINDEX: @env{GOPATH}
-#+CINDEX: package
-#+CINDEX: main package
-#+CINDEX: @code{main()} function
 :END:
 *** Code Organization --- Workspaces and ~GOPATH~
-    A *Workspace* is basically a directory where your Go source files and
-    supporting files will reside.  Typically there is a hierarchy of
-    directories where the Go files will reside.  Common organization is good
-    for sharing.  A big motivation behind the Go language is for people to work
-    together easily.  It is nice to have a standardized organization of your
-    files.  It makes it easier to share because everyone knows where to look.
+    #+cindex: workspace
+    A {{{dfn(Workspace)}}} is basically a directory hierarchy where your Go
+    source files and supporting files will reside.  Typically there is a
+    hierarchy of directories where the Go files will reside (see below).
+    Common organization is good for sharing.  A big motivation behind the Go
+    language is for people to work together easily.  It is nice to have a
+    standardized organization of your files.  It makes it easier to share
+    because everyone knows where to look.
 
-    {{{heading(Workspace Hierarchy@@ Inside your workspace you should)}}}
-    have three directories:
-     + source directory :: contains source code
-     + package directory :: contains other packages that your source code needs
-     + bin directory :: contains your compiled executables
+    {{{heading(Workspace Hierarchy)}}}
+
+    Inside your workspace you should have three directories:
+     + ~src~ (source) directory :: contains source code
+     + ~package~ directory :: contains other packages that your source code needs
+     + ~bin~ directory :: contains your compiled executables
 
     {{{heading(@@texinfo:@env{@@GOPATH@@texinfo:}@@ Environment Variable)}}}
+
+    #+cindex: workspace, one per project
+    #+cindex: @env{GOPATH} environment variable
     You will typically have one workspace for many projects.  The workspace
-    directory is defined by the @@texinfo:@env{GOPATH}@@ environment variable.
-    When using the Go tools, assume that all code is inside the
-    @@texinfo:@env{GOPATH}@@ somewhere.
+    directory is defined by the @@texinfo:@env{@@GOPATH@@texinfo:}@@
+    #+cindex: Go tools
+    environment variable.  When using the Go tools, assume that all code is
+    inside the @@texinfo:@env{@@GOPATH@@texinfo:}@@ somewhere.
 
     {{{heading(Packages)}}}
-    There is the other concept of *packages*.  Your code will be organized into
-    *packages.* A @@texinfo:@dfn{package}@@ is a group of related source code
-    files.  Any package can be imported by any other package.  The main use for
-    this is to easily share code between people and projects.  That is, it is
-    for software reuse.
 
-    The first line of a file names the package.  Other packages can be
-    *imported* using the ~import~ keyword.  For example, ~import "fmt"~ would
-    import the Format package used in printing via the ~Printf~ statement.
+    #+cindex: package
+    #+cindex: code sharing
+    There is the other concept of *package*.  Your code will be organized into
+    packages.  A {{{dfn(package)}}} is /a group of related source code files/.
+    Any package can be imported by any other package.  The main use for this is
+    to easily share code between people and projects.  That is, it is for
+    software reuse.
 
-    {{{subheading(Package Main)}}}
-    There always has to be one package called ~main~, which is where execution
-    starts.  When you build and compile a project, the ~main~ package is made
-    executable.  Compilation of non-~main~ packages are not made executable.
-    In addition, the ~main~ file must have a function called ~main()~.  Again,
-    the ~main~ function is where execution starts.
+    #+cindex: @command{import} keyword
+    The first line of a file names the package, e.g. ~package abc~.  Other
+    packages can be *imported* using the ~import~ keyword, e.g. ~import "fmt"~
+    would import the Format package used in printing via the ~Printf()~
+    statement.
 
-    {{{heading(Example Program---Hello World!)}}}
+    {{{subheading(Package {{{code(Main)}}})}}}
 
-#+NAME: Hello-World
-#+BEGIN_SRC go -n :tangle hello.go
-package main
-import "fmt"
-func main() {
-  fmt.Printf("Hello, World!\n")
-}
-#+END_SRC
+    #+cindex: @code{main} package
+    #+cindex: @code{main()} function
+    #+cindex: executable code
+    There always has to be one package called {{{code(main)}}}, which is where
+    execution starts.  When you build and compile a project, the
+    {{{code(main)}}} package is made executable.  Compilation of
+    non-{{{code(main)}}} packages are not made executable.  In addition, the
+    {{{code(main)}}} file must have a function called ~main()~.  Again, the
+    ~main()~ function is where execution starts.
+
+    {{{heading(Example Program---{{{code(Hello World!)}}})}}}
+
+    #+NAME: Hello-World
+    #+BEGIN_SRC go -n :tangle hello.go
+    package main
+    import "fmt"
+    func main() {
+      fmt.Printf("Hello, World!\n")
+    }
+    #+END_SRC
 
 :TRANSCRIPT:
 [[file:transcripts/M1.2.2-workspaces_&_packages.txt][Workspaces & Packages]]
@@ -571,7 +583,7 @@ func main() {
 #+TEXINFO_CLASS: info
 
 #+TEXINFO_HEADER:
-#+TEXINFO_POST_HEADER:
+#+TEXINFO_POST_HEADER:@allowcodebreaks false
 
 #+TEXINFO_PRINTED_TITLE:Getting Started With Go
 #+SUBTITLE:Version {{{version}}} {{{time(%F %R)}}}
@@ -583,7 +595,8 @@ func main() {
 #+OPTIONS: H:4 ':t
 #+STARTUP: logdone
 * Macros                                                           :noexport:
-  #+macro: heading @@texinfo:@@heading @@$1@@texinfo:@@
-  #+macro: subheading @@texinfo:@@subheading @@$1@@texinfo:@@
+  #+macro: heading @@texinfo:@heading @@$1@@texinfo:@@
+  #+macro: subheading @@texinfo:@subheading @@$1@@texinfo:@@
   #+macro: dfn @@texinfo:@dfn{@@$1@@texinfo:}@@
   #+macro: file @@texinfo:@file{@@$1@@texinfo:}@@
+  #+macro: code @@texinfo:@code{@@$1@@texinfo:}@@
