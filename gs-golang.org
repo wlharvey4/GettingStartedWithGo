@@ -2,275 +2,284 @@
 
 #+TITLE: Getting Started With Go
 #+AUTHOR: WLHarvey4
-#+DATE: <2018-12-30 Sun 07:29>
-#+MACRO: version 0.7.1
+#+DATE: <2018-12-30 Sun 07:57>
+#+MACRO: version 0.7.2
 
 * Course Info
 
 ** Name
-Getting Started with Go
+   Getting Started with Go
 
 ** Source
-University of California, Irvine
+   University of California, Irvine
 
 ** Instructor
- Ian Harris, Professor, Department of Computer Science
+    Ian Harris, Professor, Department of Computer Science
 
 *** Welcome from the Instructor
-Welcome  to Getting  Started  with  Go! You’re  joining  thousands of  learners
-currently enrolled in the course. I'm excited to have you in the class and look
-forward to your contributions to the learning community.
+    Welcome to Getting Started with Go! You’re joining thousands of learners
+    currently enrolled in the course. I'm excited to have you in the class and
+    look forward to your contributions to the learning community.
 
-To begin, I recommend  taking a few minutes to explore  the course site. Review
-the material we’ll cover each week,  and preview the assignments you’ll need to
-complete to  pass the  course. Click  Discussions to see  forums where  you can
-discuss the course material with fellow students taking the class.
+    To begin, I recommend taking a few minutes to explore the course
+    site. Review the material we’ll cover each week, and preview the
+    assignments you’ll need to complete to pass the course. Click Discussions
+    to see forums where you can discuss the course material with fellow
+    students taking the class.
 
-If you have questions  about course content, please post them  in the forums to
-get help from  others in the course community. For  technical problems with the
-Coursera platform, visit the [[http://learner.coursera.help/][Learner Help Center]].
+    If you have questions about course content, please post them in the forums
+    to get help from others in the course community. For technical problems
+    with the Coursera platform, visit the [[http://learner.coursera.help/][Learner Help Center]].
 
-Good luck as you get started, and I hope you enjoy the course!
+    Good luck as you get started, and I hope you enjoy the course!
 
 ** About the Course
-Learn  the  basics  of  Go,  an open  source  programming  language  originally
-developed by a team  at Google and enhanced by many  contributors from the open
-source  community.  This  course  is designed  for  individuals  with  previous
-programming experience using  such languages as C, Python, or  Java, and covers
-the fundamental elements of Go.  Topics include data types, protocols, formats,
-and writing code that incorporates RFCs and JSON. Most importantly, you’ll have
-a  chance to  practice  writing  Go programs  and  receive  feedback from  your
-peers.  Upon completing  this course,  you'll be  able to  implement simple  Go
-programs, which will prepare you for subsequent study at a more advanced level.
+   Learn the basics of Go, an open source programming language originally
+   developed by a team at Google and enhanced by many contributors from the
+   open source community.  This course is designed for individuals with
+   previous programming experience using such languages as C, Python, or Java,
+   and covers the fundamental elements of Go.  Topics include data types,
+   protocols, formats, and writing code that incorporates RFCs and JSON. Most
+   importantly, you’ll have a chance to practice writing Go programs and
+   receive feedback from your peers.  Upon completing this course, you'll be
+   able to implement simple Go programs, which will prepare you for subsequent
+   study at a more advanced level.
 
 ** Level
-Intermediate
+   Intermediate
 
 ** Specialization
-Course 1 in the @@texinfo:@cite{Programming With Google Go Specialization}@@
+   Course 1 in the @@texinfo:@cite{Programming With Google Go Specialization}@@
 
 ** How It Works
 
 *** General
 
 **** How do I pass the course
-To earn your Course Certificate, you’ll need to earn a passing grade on each of
-the  required assignments—these  can  be quizzes,  peer-graded assignments,  or
-programming assignments. Videos, readings, and  practice exercises are there to
-help you prepare for the graded assignments.
+     To earn your Course Certificate, you’ll need to earn a passing grade on
+     each of the required assignments—these can be quizzes, peer-graded
+     assignments, or programming assignments. Videos, readings, and practice
+     exercises are there to help you prepare for the graded assignments.
 
 **** What do start dates and end dates mean
-Once  you enroll,  you’ll have  access to  all videos,  readings, quizzes,  and
-programming assignments  (if applicable). If  you choose to explore  the course
-without purchasing, you  may not be able to access  certain assignments. If you
-don’t finish all graded assignments before the end of the course, you can reset
-your deadlines. Your progress will be saved and you’ll be able to pick up where
-you left off.
+     Once you enroll, you’ll have access to all videos, readings, quizzes, and
+     programming assignments (if applicable). If you choose to explore the
+     course without purchasing, you may not be able to access certain
+     assignments. If you don’t finish all graded assignments before the end of
+     the course, you can reset your deadlines. Your progress will be saved and
+     you’ll be able to pick up where you left off.
 
 **** What are due dates-Is there a penalty for submitting work after a due date
-Within a course, there are suggested due dates to help you manage your schedule
-and keep coursework from piling up.  Quizzes and programming assignments can be
-submitted  late without  consequence. However,  it is  possible that  you won't
-receive a  grade if  you submit  your peer-graded  assignment too  late because
-classmates  usually  review assignment  within  three  days of  the  assignment
-deadline.
+     Within a course, there are suggested due dates to help you manage your
+     schedule and keep coursework from piling up.  Quizzes and programming
+     assignments can be submitted late without consequence. However, it is
+     possible that you won't receive a grade if you submit your peer-graded
+     assignment too late because classmates usually review assignment within
+     three days of the assignment deadline.
 
 **** Can I re-attempt an assignment
-Yes. If  you want to improve  your grade, you  can always try again.  If you’re
-re-attempting a peer-graded assignment, re-submit your  work as soon as you can
-to make sure  there’s enough time for  your classmates to review  your work. In
-some cases you  may need to wait before re-submitting  a programming assignment
-or quiz. We encourage you to review course material during this delay.
+     Yes. If you want to improve your grade, you can always try again.  If
+     you’re re-attempting a peer-graded assignment, re-submit your work as soon
+     as you can to make sure there’s enough time for your classmates to review
+     your work. In some cases you may need to wait before re-submitting a
+     programming assignment or quiz. We encourage you to review course material
+     during this delay.
 
 *** Peer-Graded Assignments
-Peer-graded assignments require  you and your classmates to  grade each other’s
-work.
+    Peer-graded assignments require you and your classmates to grade each
+    other’s work.
 
 **** How do peer graded assignments work
-After  you  submit your  work,  you’ll  be  asked  to review  your  classmates’
-assignments. To  pass, you’ll need to  earn a passing grade  on your submission
-and complete the required number of reviews.
+     After you submit your work, you’ll be asked to review your classmates’
+     assignments. To pass, you’ll need to earn a passing grade on your
+     submission and complete the required number of reviews.
 
 **** How are grades calculated
-You and your classmates  will be asked to provide a score for  each part of the
-assignment.  Final grades  are calculated  by combining  the median  scores you
-received for each section.
+     You and your classmates will be asked to provide a score for each part of
+     the assignment.  Final grades are calculated by combining the median
+     scores you received for each section.
 
 **** What kind of feedback should I give
-Be respectful,  encouraging, and  honest. Acknowledge  what your  classmate did
-well and  offer specific  suggestions on  how they  can improve.  Scores should
-reflect the learner’s understanding of  the assignment prompt and points should
-not be deducted for difficulties with language or differences in opinion.
+     Be respectful, encouraging, and honest. Acknowledge what your classmate
+     did well and offer specific suggestions on how they can improve.  Scores
+     should reflect the learner’s understanding of the assignment prompt and
+     points should not be deducted for difficulties with language or
+     differences in opinion.
 
 **** Is there a penalty for submitting my work late
-No, but  it’s important to  submit your work  as close to  the due date  as you
-can. Classmates  grade most  of the  assignments within three  days of  the due
-date. If  you submit yours  too late,  there may not  be anyone to  review your
-work.
+     No, but it’s important to submit your work as close to the due date as you
+     can. Classmates grade most of the assignments within three days of the due
+     date. If you submit yours too late, there may not be anyone to review your
+     work.
 
 **** If I fail an assignment, can I try again
-Yes! You can always try again, but you’ll need to resubmit your work as soon as
-possible to make sure your classmates have enough time to grade your work.
+     Yes! You can always try again, but you’ll need to resubmit your work as
+     soon as possible to make sure your classmates have enough time to grade
+     your work.
 
 **** Can I edit my assignment
-Yes,  but you’ll  need to  re-submit  your work  and any  grade you’ve  already
-received will be deleted.
+     Yes, but you’ll need to re-submit your work and any grade you’ve already
+     received will be deleted.
 
 ** Syllabus
 
 *** Introduction to the Course
-Learn  the  basics  of  Go,  an open  source  programming  language  originally
-developed by a team  at Google and enhanced by many  contributors from the open
-source community. This is the first in a series of three courses comprising the
-Programming with Google Go specialization.  It is designed for individuals with
-previous programming experience using such languages as C, Python, or Java, and
-covers the  fundamental elements of  Go. Topics include data  types, protocols,
-formats, and  writing code that  incorporates RFCs and JSON.  Most importantly,
-you’ll have a chance to practice  writing Go programs and receive feedback from
-your peers. Upon completing this course,  you’ll be able to implement simple Go
-programs,  which  will prepare  you  for  the  remaining  two courses  in  this
-specialization: Functions, Methods, and Interfaces in Go and Concurrency in Go.
+    Learn the basics of Go, an open source programming language originally
+    developed by a team at Google and enhanced by many contributors from the
+    open source community. This is the first in a series of three courses
+    comprising the Programming with Google Go specialization.  It is designed
+    for individuals with previous programming experience using such languages
+    as C, Python, or Java, and covers the fundamental elements of Go. Topics
+    include data types, protocols, formats, and writing code that incorporates
+    RFCs and JSON.  Most importantly, you’ll have a chance to practice writing
+    Go programs and receive feedback from your peers. Upon completing this
+    course, you’ll be able to implement simple Go programs, which will prepare
+    you for the remaining two courses in this specialization: Functions,
+    Methods, and Interfaces in Go and Concurrency in Go.
 
 **** Contents
-- One video :: Welcome to the Course
-- Reading :: Go Documentation
+     - One video :: Welcome to the Course
+     - Reading :: Go Documentation
 
 *** Module 1 --- Getting Started with Go
-This first module  gets you started with Go. You'll  learn about the advantages
-of using  Go and begin  exploring the  language's features. Midway  through the
-module,  you’ll take  a  break from  "theory" and  install  the Go  programming
-environment on your computer.  At the end of the module,  you'll write a simple
-program that displays “Hello, World” on your screen.
+    This first module gets you started with Go. You'll learn about the
+    advantages of using Go and begin exploring the language's features. Midway
+    through the module, you’ll take a break from "theory" and install the Go
+    programming environment on your computer.  At the end of the module, you'll
+    write a simple program that displays “Hello, World” on your screen.
 
 **** Videos
-1. Module 1 Overview
-2. Why Should I Learn Go? (Advantages of Go)
-3. Objects
-4. Concurrency
-5. Installing Go
-6. Workspaces and Packages
-7. Go Tool
-8. Variables
-9. Variable Initialization
+     1. Module 1 Overview
+     2. Why Should I Learn Go? (Advantages of Go)
+     3. Objects
+     4. Concurrency
+     5. Installing Go
+     6. Workspaces and Packages
+     7. Go Tool
+     8. Variables
+     9. Variable Initialization
 
 **** Activity
-- ``Hello, world''
+     - ``Hello, world''
 
 **** Quiz
-- Module 1 quiz
+     - Module 1 quiz
 
 *** Module 2 --- Basic Data Types
-Now that you’ve set up your programming environment and written a test program,
-you’re ready to dive  into data types. This module introduces  data types in Go
-and gives you practice writing routines that manipulate different kinds of data
-objects, including floating-point numbers and strings.
+    Now that you’ve set up your programming environment and written a test
+    program, you’re ready to dive into data types. This module introduces data
+    types in Go and gives you practice writing routines that manipulate
+    different kinds of data objects, including floating-point numbers and
+    strings.
 
 **** Reading
-Read This First!
+     Read This First!
 
 **** Videos
-1. Module 2 Overview
-2. Pointers
-3. Variable Scope
-4. Deallocating Memory
-5. Garbage Collection
-6. Comments, Printing, Integers
-7. Ints, Floats, Strings
-8. String Packages
-9. Constants
-10. Control Flow
-11. Control Flow, Scan
+     1. Module 2 Overview
+     2. Pointers
+     3. Variable Scope
+     4. Deallocating Memory
+     5. Garbage Collection
+     6. Comments, Printing, Integers
+     7. Ints, Floats, Strings
+     8. String Packages
+     9. Constants
+     10. Control Flow
+     11. Control Flow, Scan
 
 **** Activities
-- @@texinfo:@file{trunc.go}@@
-- @@texinfo:@file{findian.go}@@
+     - @@texinfo:@file{trunc.go}@@
+     - @@texinfo:@file{findian.go}@@
 
 **** Quiz
-Module 2 quiz
+     Module 2 quiz
 
 *** Module 3 --- Composite Data Types
-At this  point, we’re  ready to  move into more  complex data  types, including
-arrays, slices,  maps, and structs.  As in the  previous module, you’ll  have a
-chance to practice writing code that makes use of these data types.
+    At this point, we’re ready to move into more complex data types, including
+    arrays, slices, maps, and structs.  As in the previous module, you’ll have
+    a chance to practice writing code that makes use of these data types.
 
 **** Videos
-1. Module 3 Overview
-2. Arrays
-3. Slices
-4. Variable Slices
-5. Hash Tables
-6. Maps
-7. Structs
+     1. Module 3 Overview
+     2. Arrays
+     3. Slices
+     4. Variable Slices
+     5. Hash Tables
+     6. Maps
+     7. Structs
 
 **** Activity
-- @@texinfo:@file{slice.go}@@
+     - @@texinfo:@file{slice.go}@@
 
 **** Quiz
-- Module 3 Quiz
+     - Module 3 Quiz
 
 *** Module 4 --- Protocols and Formats
-This final  module of the  course introduces the  use of remote  function calls
-(RFCs) and JavaScript Object Notation (JSON)  in Go. You’ll learn how to access
-and  manipulate data  from external  files, and  have an  opportunity to  write
-several routines using Go that exercise this functionality.
+    This final module of the course introduces the use of remote function calls
+    (RFCs) and JavaScript Object Notation (JSON) in Go. You’ll learn how to
+    access and manipulate data from external files, and have an opportunity to
+    write several routines using Go that exercise this functionality.
 
 **** Videos
-1. Module 4 Overview
-2. RFCs
-3. JSON
-4. File Access, ~ioutil~
-5. File Acces, ~os~
+     1. Module 4 Overview
+     2. RFCs
+     3. JSON
+     4. File Access, ~ioutil~
+     5. File Acces, ~os~
 
 **** Activities
-- @@texinfo:@file{makejson.go}@@
-- @@texinfo:@file{read.go}@@
+     - {{{file(makejson.go)}}}
+     - {{{file(read.go)}}}
 
 * Introductions
 
 ** To the Specialization
 
 *** Welcome to the Programming with Google Go Specialization!
-This intermediate-level, three-course sequence  is designed for individuals who
-have had some experience programming in  another language but now wish to learn
-about the  features and  capabilities of  Go. The courses  provide a  review of
-essential  programming concepts,  as needed,  to ensure  that all  learners are
-sufficiently comfortable  with the  basics before  learning about  the features
-that are peculiar  to Go. (Please note that the  original specialization design
-called for four courses but development  of the fourth course has been deferred
-to a later  time. For now, please disregard the  occasional references that the
-instructor makes to this fourth course.)
+    This intermediate-level, three-course sequence  is designed for individuals
+    who have had  some experience programming in another language  but now wish
+    to learn about  the features and capabilities of Go.  The courses provide a
+    review of  essential programming  concepts, as needed,  to ensure  that all
+    learners are sufficiently comfortable with the basics before learning about
+    the  features that  are  peculiar to  Go. (Please  note  that the  original
+    specialization design called for four courses but development of the fourth
+    course has  been deferred to  a later time.  For now, please  disregard the
+    occasional references that the instructor makes to this fourth course.)
 
-The first course,  /Getting Started with Go/, introduces the  basic elements of
-the language including unique features such as slices that are not available in
-other programming  environments.  The  second course, /Functions,  Methods, and
-Interfaces in Go/, expands your knowledge of Go with a focus on object-oriented
-features such as classes and encapsulation,  and allows you to practice writing
-code to solve practical problems.  The  third and final course, /Concurrency in
-Go/, shows you how to write Go code that executes more rapidly through parallel
-execution in multi-processor environments.
+    The first course, /Getting Started  with Go/, introduces the basic elements
+    of  the language  including unique  features such  as slices  that are  not
+    available   in  other   programming  environments.    The  second   course,
+    /Functions, Methods,  and Interfaces in  Go/, expands your knowledge  of Go
+    with a focus on object-oriented features such as classes and encapsulation,
+    and allows you  to practice writing code to solve  practical problems.  The
+    third and final course, /Concurrency in Go/, shows you how to write Go code
+    that executes  more rapidly  through parallel execution  in multi-processor
+    environments.
 
-The courses feature video lectures by  Professor Ian Harris from the University
-of   California,   Irvine  and   are   accompanied   by  automatically   graded
-multiple-choice quizzes  and peer-reviewed programming assignments.  While most
-of the information needed to  complete the programming assignments is presented
-within the context of the courses (i.e. by the lecturer), we encourage students
-to  take  advantage  of  the  many resources  that  are  available  online  for
-clarification and further learning.
+    The  courses  feature video  lectures  by  Professor  Ian Harris  from  the
+    University  of  California, Irvine  and  are  accompanied by  automatically
+    graded multiple-choice  quizzes and peer-reviewed  programming assignments.
+    While  most  of   the  information  needed  to   complete  the  programming
+    assignments is  presented within the  context of  the courses (i.e.  by the
+    lecturer), we  encourage students to  take advantage of the  many resources
+    that are available online for clarification and further learning.
 
 ** To the Course
 
 *** Introduction to the Course
-Learn  the  basics  of  Go,  an open  source  programming  language  originally
-developed by a team  at Google and enhanced by many  contributors from the open
-source community. This is the first in a series of three courses comprising the
-Programming with Google Go specialization.  It is designed for individuals with
-previous programming experience using such languages as C, Python, or Java, and
-covers the  fundamental elements of  Go. Topics include data  types, protocols,
-formats, and  writing code that  incorporates RFCs and JSON.  Most importantly,
-you’ll have a chance to practice  writing Go programs and receive feedback from
-your peers. Upon completing this course,  you’ll be able to implement simple Go
-programs,  which  will prepare  you  for  the  remaining  two courses  in  this
-specialization: Functions, Methods, and Interfaces in Go and Concurrency in Go.
+    Learn  the basics  of Go,  an open  source programming  language originally
+    developed by  a team at Google  and enhanced by many  contributors from the
+    open  source community.  This is  the first  in a  series of  three courses
+    comprising the Programming  with Google Go specialization.   It is designed
+    for individuals  with previous programming experience  using such languages
+    as C,  Python, or Java, and  covers the fundamental elements  of Go. Topics
+    include data types, protocols, formats,  and writing code that incorporates
+    RFCs and JSON.  Most importantly, you’ll  have a chance to practice writing
+    Go  programs and  receive feedback  from your  peers. Upon  completing this
+    course, you’ll be able to implement  simple Go programs, which will prepare
+    you  for  the remaining  two  courses  in this  specialization:  Functions,
+    Methods, and Interfaces in Go and Concurrency in Go.
 
 *** Welcome to the Course
 :TRANSCRIPT:
@@ -282,41 +291,43 @@ specialization: Functions, Methods, and Interfaces in Go and Concurrency in Go.
 :CI:
 #+CINDEX: documentation, getting started
 :END:
-Here is some [[https://golang.org/doc/#learning][Go  documentation]] that helps you get started  setting up and using
-Go. You  don't have to  read all of  it now, just know  that it exists  and can
-serve as a valuable resource.
+    Here is some [[https://golang.org/doc/#learning][Go documentation]] that helps you get started setting up and
+    using Go. You don't have to read all of it now, just know that it exists
+    and can serve as a valuable resource.
 
 * Module 1 --- Overview
 :TRANSCRIPT:
 [[file:transcripts/M1-Overview.txt][Module One Overview]]
 :END:
 ** Advantages of Go
-1. Code runs fast
-2. Garbage collection
-3. Simpler objects
+   1. Code runs fast
+   2. Garbage collection
+   3. Simpler objects
+
 :TRANSCRIPT:
 [[file:transcripts/M1.1.1-why_go-advantages.txt][Why Go? Advantages]]
 :END:
 ** Objects
+
 :TRANSCRIPT:
 [[file:transcripts/M1.1.2-objects.txt][Objects]]
 :END:
 ** Concurrency
 
-A big advantage of Go is its implementation of *concurrency*.  The language has
-built-in constructs that make it easy to use concurrency.
+   A big advantage of Go is its implementation of *concurrency*.  The language
+   has built-in constructs that make it easy to use concurrency.
 
-Parallelism through increasing cores, which allows the computer to do more
-tasks at one time.  Programming in parallel is difficult, however.
-*Concurrency* is the management of multiple tasks at the same time.  Concurrent
-programming enables parallelism.  The programmer has to decide how to
-partition the code.  The program is making decisions that allows things to run
-in parallel.
+   Parallelism through increasing cores, which allows the computer to do more
+   tasks at one time.  Programming in parallel is difficult, however.
+   *Concurrency* is the management of multiple tasks at the same time.
+   Concurrent programming enables parallelism.  The programmer has to decide
+   how to partition the code.  The program is making decisions that allows
+   things to run in parallel.
 
-Go has a lot of concurrency primitives built-in to the language and implemented
-efficiently.  Each Go routine represents a separate concurrent task (basically
-a thread).  *Select* is used to enable synchronization.  *Channels* are used for
-concurrent communication between tasks.
+   Go has a lot of concurrency primitives built-in to the language and
+   implemented efficiently.  Each Go routine represents a separate concurrent
+   task (basically a thread).  *Select* is used to enable synchronization.
+   *Channels* are used for concurrent communication between tasks.
 
 :TRANSCRIPT:
 [[file:transcripts/M1.1.3-concurrency.txt][Concurrency]]
@@ -324,7 +335,7 @@ concurrent communication between tasks.
 ** Installing Go
 
 *** Installation
- [[https://golang.org/][Golang]] ==> [[https://golang.org/dl/][Download Go]] ==> [[https://golang.org/doc/install][Installation Instructions]]
+    [[https://golang.org/][Golang]] ==> [[https://golang.org/dl/][Download Go]] ==> [[https://golang.org/doc/install][Installation Instructions]]
 
 :TRANSCRIPT:
 [[file:transcripts/M1.2.1-installing_go.txt][Installing Go]]
@@ -339,47 +350,44 @@ concurrent communication between tasks.
 #+CINDEX: @code{main()} function
 :END:
 *** Code Organization --- Workspaces and ~GOPATH~
-A  *Workspace*  is  basically  a  directory where  your  Go  source  files  and
-supporting files  will reside.  Typically  there is a hierarchy  of directories
-where the  Go files will reside.   Common organization is good  for sharing.  A
-big motivation  behind the Go language  is for people to  work together easily.
-It is  nice to  have a standardized  organization of your  files.  It  makes it
-easier to share because everyone knows where to look.
+    A *Workspace* is basically a directory where your Go source files and
+    supporting files will reside.  Typically there is a hierarchy of
+    directories where the Go files will reside.  Common organization is good
+    for sharing.  A big motivation behind the Go language is for people to work
+    together easily.  It is nice to have a standardized organization of your
+    files.  It makes it easier to share because everyone knows where to look.
 
-@@texinfo:@heading Workspace Hierarchy@@
-Inside your workspace you should have three directories:
- + source directory :: contains source code
- + package directory :: contains other packages that your source code needs
- + bin directory :: contains your compiled executables
+    {{{heading(Workspace Hierarchy@@ Inside your workspace you should)}}}
+    have three directories:
+     + source directory :: contains source code
+     + package directory :: contains other packages that your source code needs
+     + bin directory :: contains your compiled executables
 
-@@texinfo:@heading @env{GOPATH} Environment Variable@@
+    {{{heading(@@texinfo:@env{@@GOPATH@@texinfo:}@@ Environment Variable)}}}
+    You will typically have one workspace for many projects.  The workspace
+    directory is defined by the @@texinfo:@env{GOPATH}@@ environment variable.
+    When using the Go tools, assume that all code is inside the
+    @@texinfo:@env{GOPATH}@@ somewhere.
 
-You  will  typically have  one  workspace  for  many projects.   The  workspace
-directory  is defined  by  the  @@texinfo:@env{GOPATH}@@ environment  variable.
-When   using   the  Go   tools,   assume   that   all   code  is   inside   the
-@@texinfo:@env{GOPATH}@@ somewhere.
+    {{{heading(Packages)}}}
+    There is the other concept of *packages*.  Your code will be organized into
+    *packages.* A @@texinfo:@dfn{package}@@ is a group of related source code
+    files.  Any package can be imported by any other package.  The main use for
+    this is to easily share code between people and projects.  That is, it is
+    for software reuse.
 
-@@texinfo:@heading Packages@@
+    The first line of a file names the package.  Other packages can be
+    *imported* using the ~import~ keyword.  For example, ~import "fmt"~ would
+    import the Format package used in printing via the ~Printf~ statement.
 
-There is  the other concept  of *packages*.  Your  code will be  organized into
-*packages.*  A @@texinfo:@dfn{package}@@  is  a group  of  related source  code
-files.  Any  package can be  imported by any other  package.  The main  use for
-this is to easily share code between people and projects.  That is, it is for
-software reuse.
+    {{{subheading(Package Main)}}}
+    There always has to be one package called ~main~, which is where execution
+    starts.  When you build and compile a project, the ~main~ package is made
+    executable.  Compilation of non-~main~ packages are not made executable.
+    In addition, the ~main~ file must have a function called ~main()~.  Again,
+    the ~main~ function is where execution starts.
 
-The first line of  a file names the package.  Other  packages can be *imported*
-using  the ~import~  keyword.  For  example,  ~import "fmt"~  would import  the
-Format package used in printing via the ~Printf~ statement.
-
-@@texinfo:@subheading Package Main@@
-
-There always  has to  be one  package called ~main~,  which is  where execution
-starts.   When you  build and  compile a  project, the  ~main~ package  is made
-executable.  Compilation  of non-~main~ packages  are not made  executable.  In
-addition, the  ~main~ file must  have a  function called ~main()~.   Again, the
-~main~ function is where execution starts.
-
-@@texinfo:@heading Example Program---Hello World!@@
+    {{{heading(Example Program---Hello World!)}}}
 
 #+NAME: Hello-World
 #+BEGIN_SRC go -n :tangle hello.go
@@ -396,26 +404,26 @@ func main() {
 ** Go Tool
 
 *** Import
-~import~ is a keyword  which is used to access other  packages.  At this point,
-these  packages will  be  prebuilt  packages that  come  with  Go.  These  will
-implement different functions that are  useful to programmers, for example, the
-package  ~fmt~, which  contains the  ~Printf()~  function.  When  a package  is
-imported,  the  Go tool  finds  that  package  by  looking in  the  directories
-specified   by   the  @@texinfo:@env{GOROOT}@@   and   @@texinfo:@env{GOPATH}@@
-environment variables.
+    ~import~ is a keyword which is used to access other packages.  At this
+    point, these packages will be prebuilt packages that come with Go.  These
+    will implement different functions that are useful to programmers, for
+    example, the package ~fmt~, which contains the ~Printf()~ function.  When a
+    package is imported, the Go tool finds that package by looking in the
+    directories specified by the @@texinfo:@env{GOROOT}@@ and
+    @@texinfo:@env{GOPATH}@@ environment variables.
 
-@@texinfo:@heading The Go Tool@@
+    {{{heading(The Go Tool)}}}
+    The Go Tool is a general tool used to manage Go source code.  It has many
+    commands available to it.  A main one is ~build~, i.e., ~go build
+    <arguments>~.  This command is used to compile some Go source code.  It can
+    have different arguments, or no arguments at all, depending on what you
+    want to accomplish.  It will create an executable from the ~main~ package.
 
-The Go  Tool is  a general tool  used to  manage Go source  code.  It  has many
-commands available to it.  A main one is ~build~, i.e., ~go build <arguments>~.
-This command  is used to  compile some Go source  code.  It can  have different
-arguments, or  no arguments at all,  depending on what you  want to accomplish.
-It will create an executable from the ~main~ package.
-
-Another command is ~doc~, which prints documentation for a package.  Another is
-~format~, which  will format source  code files.   Another is ~get~  which will
-download  non-standard  packages.  ~list~  will  list  the installed  packages.
-~run~ compiles a go file, then runs the executable.  ~test~ runs tests.
+    Another command is ~doc~, which prints documentation for a package.
+    Another is ~format~, which will format source code files.  Another is ~get~
+    which will download non-standard packages.  ~list~ will list the installed
+    packages.  ~run~ compiles a go file, then runs the executable.  ~test~ runs
+    tests.
 
 :TRANSCRIPT:
 [[file:transcripts/M1.2.3-go_tool.txt][Go Tool]]
@@ -429,13 +437,13 @@ download  non-standard  packages.  ~list~  will  list  the installed  packages.
 #+CINDEX: declarations
 #+CINDEX: variable declarations
 :END:
-Rules for identifiers is standard.
+    Rules for identifiers is standard.
 
-All variables have to be declared  using the ~var~ keyward, which specifies the
-variable's *name* and *type*.  You can optionally declare multiple variables of
-the same type on one line.
-  : var x int
-  : var x, y int
+    All variables have to be declared using the ~var~ keyward, which specifies
+    the variable's *name* and *type*.  You can optionally declare multiple
+    variables of the same type on one line.
+    : var x int
+    : var x, y int
 
 :TRANSCRIPT:
 [[file:transcripts/M1.3.1-variables.txt][Variables]]
@@ -446,20 +454,20 @@ the same type on one line.
 #+CINDEX: variable initialization
 #+CINDEX: short variable declaration
 :END:
-Every variable must be *initialized* prior to using it for the first time.  One
-way  to  initialize a  variable  is  to give  it  a  value in  the  declaration
-statement.  In such a  case, the type can usually be omitted,  in which case it
-is inferred from  the type of the  value.  If a variable is  not initialized in
-the  declaration, then  it needs  to be  assigned a  value before  it is  used,
-otherwise it is given the ~zero~ value for its type.
-  : var x int = 100
-  : var x = 100
-  : x = 200
+    Every variable must be *initialized* prior to using it for the first time.
+    One way to initialize a variable is to give it a value in the declaration
+    statement.  In such a case, the type can usually be omitted, in which case
+    it is inferred from the type of the value.  If a variable is not
+    initialized in the declaration, then it needs to be assigned a value before
+    it is used, otherwise it is given the ~zero~ value for its type.
+    : var x int = 100
+    : var x = 100
+    : x = 200
 
-There  is   a  third  way  to   initialize  a  variable,  which   is  called  a
-@@texinfo:@dfn{short  variable  declaration}@@.   This  only  works  inside  a
-function, however.
-  : x := 100
+    There is a third way to initialize a variable, which is called a
+    {{{dfn(short variable declaration)}}}.  This only works inside a function,
+    however.
+    : x := 100
 
 :TRANSCRIPT:
 [[file:transcripts/M1.3.2-variable_initialization.txt][Variable Initialization]]
@@ -467,26 +475,28 @@ function, however.
 ** Peer-Graded Assignment --- ``Hello World''
 
 *** Instructions
-The goal of  this initial assignment is  to ensure that you have  set up golang
-properly, and that you are ready to proceed through the rest of this course.
+    The goal of this initial assignment is to ensure that you have set up
+    golang properly, and that you are ready to proceed through the rest of this
+    course.
 
 *** Review Criteria
-This assignment  is worth a total  of 10 points.  5 points will be  awarded for
-successful compilation.  Another 5  points will be  awarded if  your screenshot
-shows execution and it successfully prints "Hello, world!"
+    This assignment is worth a total of 10 points.  5 points will be awarded
+    for successful compilation.  Another 5 points will be awarded if your
+    screenshot shows execution and it successfully prints "Hello, world!"
 
 *** TODO Submission [3/4]
     :PROPERTIES:
     :ORDERED:  t
     :END:
- - [X] Download and install the Go tools on your machine. [100%]
-   - [X] Download
-   - [X] Install
- - [X] Write a Go program to print ``Hello, world!'' on the screen.
- - [X] Compile and run the program.
- - [ ] Submit a screenshot of your cmd window showing you compiling and
-   executing your code.  The string ``Hello, world!'' should appear on the
-   screen when you execute the code.
+    - [X] Download and install the Go tools on your machine. [100%]
+      - [X] Download
+      - [X] Install
+    - [X] Write a Go program to print ``Hello, world!'' on the screen.
+    - [X] Compile and run the program.
+    - [ ] Submit a screenshot of your cmd window showing you compiling and
+      executing your code.  The string ``Hello, world!'' should appear on the
+      screen when you execute the code.
+
 * Module 2 --- Basic Data Types
   - Learning Objectives
     + Describe the fundamental data types in Go.
@@ -496,12 +506,13 @@ shows execution and it successfully prints "Hello, world!"
       and performs truncation.
     + Write and implement a Go program that manipulates strings.
 
-#+BEGIN_QUOTE
-Now that you’ve set up your programming environment and written a test program,
-you’re ready to dive  into data types. This module introduces  data types in Go
-and gives you practice writing routines that manipulate different kinds of data
-objects, including floating-point numbers and strings.
-#+END_QUOTE
+    #+BEGIN_QUOTE
+    Now that you’ve set up your programming environment and written a test
+    program, you’re ready to dive into data types. This module introduces data
+    types in Go and gives you practice writing routines that manipulate
+    different kinds of data objects, including floating-point numbers and
+    strings.
+    #+END_QUOTE
 
 ** Overview
 :TRANSCRIPT:
@@ -511,14 +522,14 @@ objects, including floating-point numbers and strings.
 :CI:
 #+CINDEX: pointers
 :END:
-Discussion about the basic data types, but will start with
-@@texinfo:@dfn{pointers}@@.
+   Discussion about the basic data types, but will start with
+   {{{dfn(pointers)}}}.
 
- - Pointer :: A pointer is an address to some data in memory.
+   - Pointer :: A pointer is an address to some data in memory.
 
- - Pointer operators
-   + ~&~ ampersand :: returns the address of a variable
-   + ~*~ star :: dereferencing operator --- return the value at an address
+   - Pointer operators
+     + ~&~ ampersand :: returns the address of a variable
+     + ~*~ star :: dereferencing operator --- return the value at an address
 
 :TRANSCRIPT:
 [[file:transcripts/M2.1.1-pointers.txt][Pointers]]
@@ -550,6 +561,7 @@ Discussion about the basic data types, but will start with
 ** Constants
 ** Control Flow
 ** Control Flow -- Scan
+
 * Index
 :PROPERTIES:
 :INDEX: cp
@@ -574,3 +586,4 @@ Discussion about the basic data types, but will start with
   #+macro: heading @@texinfo:@@heading @@$1@@texinfo:@@
   #+macro: subheading @@texinfo:@@subheading @@$1@@texinfo:@@
   #+macro: dfn @@texinfo:@dfn{@@$1@@texinfo:}@@
+  #+macro: file @@texinfo:@file{@@$1@@texinfo:}@@
