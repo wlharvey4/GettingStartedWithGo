@@ -2,21 +2,8 @@
 
 #+TITLE: Getting Started With Go
 #+AUTHOR: WLHarvey4
-#+DATE: <2018-12-12 Wed 06:34>
-
-#+TEXINFO_FILENAME: gs-golang.info
-#+TEXINFO_CLASS: info
-#+TEXINFO_HEADER:
-#+TEXINFO_POST_HEADER:
-#+SUBTITLE:Version {{{version}}} {{{time(%F %R)}}}
-#+SUBAUTHOR:
-#+TEXINFO_DIR_CATEGORY: Golang
-#+TEXINFO_DIR_TITLE: Getting Started With Go
-#+TEXINFO_DIR_DESC: Introduction to the Go language
-#+TEXINFO_PRINTED_TITLE:Getting Started With Go
-#+MACRO: version 0.7
-#+OPTIONS: H:4
-#+STARTUP: logdone
+#+DATE: <2018-12-30 Sun 07:29>
+#+MACRO: version 0.7.1
 
 * Course Info
 
@@ -567,3 +554,23 @@ Discussion about the basic data types, but will start with
 :PROPERTIES:
 :INDEX: cp
 :END:
+* Export Setup                                                     :noexport:
+#+TEXINFO_FILENAME: gs-golang.info
+#+TEXINFO_CLASS: info
+
+#+TEXINFO_HEADER:
+#+TEXINFO_POST_HEADER:
+
+#+TEXINFO_PRINTED_TITLE:Getting Started With Go
+#+SUBTITLE:Version {{{version}}} {{{time(%F %R)}}}
+
+#+TEXINFO_DIR_CATEGORY: Languages
+#+TEXINFO_DIR_TITLE: Golang
+#+TEXINFO_DIR_DESC: Introduction to the Go language
+
+#+OPTIONS: H:4 ':t
+#+STARTUP: logdone
+* Macros                                                           :noexport:
+  #+macro: heading @@texinfo:@@heading @@$1@@texinfo:@@
+  #+macro: subheading @@texinfo:@@subheading @@$1@@texinfo:@@
+  #+macro: dfn @@texinfo:@dfn{@@$1@@texinfo:}@@
